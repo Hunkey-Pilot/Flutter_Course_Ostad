@@ -10,7 +10,7 @@ main() {
   print("Address: ${john.getAddress()}");
   print("Average Score: ${john.calculateAvgScore().toStringAsFixed(1)}");
 
-  print("=================");
+  print(" ");
   
   Teacher smith = Teacher(71006, ["Math", "English", "Bangla"]);
   print("Teacher Information:");
